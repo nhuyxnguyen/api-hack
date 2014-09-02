@@ -9,13 +9,14 @@ $('button').click(function(){
 		dataType: 'jsonp',
 		success: function(data) {
 			$('.container').show();
+			$('.ext-container').show();
 			$('.poke-name').text(data.name);
 			$('.poke-type').text(data.types[0].name);
 			$('.poke-hp').text(data.hp);
 			$('.poke-atk').text(data.attack);
 			$('.poke-def').text(data.defense);
+			$('.more').html('<a target=_blank href=http://bulbapedia.bulbagarden.net/wiki/'+data.name+'>Click Here!</a>');
 		}
 	});
-
 });
 });

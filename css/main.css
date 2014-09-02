@@ -26,6 +26,18 @@ header {
 	border-radius: 10px;
 }
 
+.ext-container {
+	background-color: #FFFCEC;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 50px;
+	border: 1px dashed #FFBBA3;
+	border-radius: 10px;
+}
+
 .submit {
 	width: 100px;
 	border: 1px solid #FFBBA3;
