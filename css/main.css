@@ -1,0 +1,38 @@
+* {
+	text-align: center;
+	font-family: Georgia;
+	color: #D94F52;
+}
+
+body {
+	background-color: #ABDCD6;
+}
+
+header {
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.container {
+	background-color: #FFFCEC;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 230px;
+	border: 1px dashed #FFBBA3;
+	border-radius: 10px;
+}
+
+.submit {
+	width: 100px;
+	border: 1px solid #FFBBA3;
+	background-color: #FFFCEC;
+
+}
+
+.property {
+	font-weight: bold;
+}
